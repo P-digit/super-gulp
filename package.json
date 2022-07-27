@@ -1,0 +1,43 @@
+{
+  "name": "supergulp",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome development environment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P-digit/super-gulp.git"
+  },
+  "author": "Park jin soo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P-digit/super-gulp/issues"
+  },
+  "homepage": "https://github.com/P-digit/super-gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.9",
+    "babelify": "^10.0.0",
+    "del": "^4.1.1",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-image": "^6.2.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "pkg-config": "^1.1.1",
+    "pngquant": "^4.0.0",
+    "uglifyify": "^5.0.2"
+  }
+}

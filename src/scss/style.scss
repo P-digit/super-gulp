@@ -1,0 +1,16 @@
+@import "_reset.scss";
+@import "_variables.scss";
+
+body {
+  background-color: $red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+}
